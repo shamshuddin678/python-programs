@@ -9,10 +9,10 @@ class Calculaor:
     def cube(self):
         print(f"{self.n**3}")
     
-    def sqaure_root(self):
+    def square_root(self):
         print(f"{self.n**1/2}")           
 
 a = Calculaor(4 )
 a.square()
 a.cube()
-a.sqaure_root()
+a.square_root()

@@ -4,7 +4,7 @@ class Employee:
     salary=1200000
 
     
-    def get_details(self):
+    def get_details(self): # Here self is shamshu and equivalent to Employee.get_details()
         print(f"My name is {self.name} and my company is {self.company} and my salary is {self.salary}")
 
     @staticmethod    

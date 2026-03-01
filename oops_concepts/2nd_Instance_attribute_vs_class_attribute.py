@@ -4,5 +4,5 @@ class Employee1:
     salary=100000
 
 py=Employee1()
-py.language="java"  #inastance attribute
+py.language="java"  #instance attribute
 print(py.language)    
