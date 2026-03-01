@@ -1,4 +1,4 @@
-# calendar.py
+# calendar
 
 import calendar
 from datetime import date
