@@ -1,0 +1,24 @@
+f = open("files/file.txt")
+
+# lines = f.readlines()
+# print(lines,type(lines)) it returns the class<'list'>
+
+# line1 = f.readline()
+# print(line1,type(line1))   # It returns the class<'str'>
+
+# line2 = f.readline()
+# print(line2,type(line2))
+
+# line3 = f.readline()
+# print(line3,type(line3))
+
+# line4 = f.readline()
+# print(line4,type(line4)) 
+
+# Using while loop
+line = f.readline()
+while(line != ""):
+    print(line)
+    line = f.readline()
+
+f.close()
