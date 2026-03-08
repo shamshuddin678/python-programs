@@ -32,12 +32,12 @@ b.printCost("2.57cr")
 
 
 '''
-->Feature                 ->`{name}`              ->`{self.name}`                   |
+->Feature                 ->`{name}`              ->`{self.name}`                   
 
-->Variable Type            Local variable        Object attribute                |
-->Scope                    Only inside function  Stored in object                |
-->Lifetime                 Temporary             Exists as long as object exists |
-->Access outside function  No                    Yes                           |
+->Variable Type            Local variable        Object attribute                
+->Scope                    Only inside function  Stored in object                
+->Lifetime                 Temporary             Exists as long as object exists 
+->Access outside function  No                    Yes                           
 
 
 -> important note:
