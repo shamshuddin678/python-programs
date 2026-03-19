@@ -1,21 +1,16 @@
-class Student:
-    college_name = "our college"
-
-    def __init__(self,name,marks):
-        self.name = name
-        self._marks = marks
-        print(f"the student name is {self.name} and marks are {self.marks}")
-    
-    def welcome(self): # method
-        print("Hello to everyone")
-
-    # def get_marks(self):
-    #     return self.marks instead of writing of get_marks()
-    # we use decorators
+class Decorator:
+    company = "Microsoft"
+    def __init__(self,name):
+        self._name = name
     @property
-    def marks(self):
-        return self._marks    
+    def name(self):
+        return self._name 
 
-s = Student("shmashuddin",89)
-s.welcome()
-print(s.marks)     
+    @name.setter
+    def name(self,value):
+        self._name = value
+
+d = Decorator("shamshuddin")
+print(f"Here using getter decorator @property,so name is {d.name} (name is not changing)")   # propert means no need to change it printing the 
+d.name = "shaik shamshuddin" 
+print(f"Here using setter decorator @function_name.setter,so name is {d.name} (changing)")   # Setter means changing the property     

@@ -1,6 +1,14 @@
+'''
+->Method 1 (space-separated numbers)
+lst = list(map(int, input("Enter numbers: ").split()))
+print(lst)
+
+-> method 2: (strings)
+lst = input("Enter strings).split()
+'''
 #.split method by taking the input it converts the string into list of strings
 # a=input("Enter the list of fruits: ").split()
-a=input("Enter the list of fruits: ").split()
+a=input("Enter the list of fruits: ").split() # for strings
 print(a)
 
 

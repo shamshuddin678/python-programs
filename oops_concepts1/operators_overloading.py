@@ -59,3 +59,42 @@ print(a * b)
 print(a / b)
 print(a // b)
 print(a % b)
+
+
+# Assignment operator overloading
+class Number1:
+    def __init__(self, x):
+        self.x = x
+    def __iadd__(self, other):
+        self.x += other
+        print(f"the iadd operator {self.x}")
+        return self
+    def __isub__(self, other):
+        self.x -= other
+        print(f"the isub operator {self.x}")
+        return self
+    def __imul__(self, other):
+        self.x *= other
+        print(f"the imul operator {self.x}")
+        return self   
+n1 = Number1(13)
+
+n1 += 13
+n1 -= 1
+n1 *= 2
+
+# Uninary operator overloading
+class Number2:
+    def __init__(self,s):
+        self.s = s
+    def __neg__(self):
+        return f"The negative {-self.s}"    
+    def __pos__(self):
+        return f"The positive {+self.s}"    
+    def __abs__(self):
+        return f"The absolute {self.s}"
+
+ob = Number2(99)
+print(-ob)
+print(+ob)
+print(abs(ob))

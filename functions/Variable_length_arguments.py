@@ -6,7 +6,7 @@ def Arguments(*numbers):
         sum = sum + i
     print("The Average is: ",sum / len(numbers))    
 
-Arguments(5,6)
+Arguments(5,6) # returns 5.5
 Arguments(5,6,7,1)
 
 
