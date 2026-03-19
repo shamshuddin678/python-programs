@@ -9,7 +9,6 @@ class Car:
         self.brand = brand
         print(f"The name of car is {self.name} and brand is {self.brand}")
 
-
 class BMW(Car):
 
     def showModel(self, model):
