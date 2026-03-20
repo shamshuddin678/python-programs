@@ -1,0 +1,22 @@
+from functools import reduce
+# map Example
+l = [1,2,3,4,5]
+
+square = lambda x : x * x 
+sqlist = map(square,l)
+print(list(sqlist))
+
+# filter Example
+def even(n):
+    if(n %2 != 0):
+        return False
+    return True
+onlyeven = filter(even,l)
+print(list(onlyeven))
+
+# reduce Example
+def multiply(a,b):
+    return a * b
+sum = lambda x,y : x + y
+print(reduce(sum,l))
+print(reduce(multiply,l))
