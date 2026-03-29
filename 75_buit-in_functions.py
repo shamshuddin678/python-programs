@@ -118,10 +118,10 @@ print(sorted([5,2,9]))
 # 35. reversed()
 print(list(reversed([1,2,3])))
 
-# 36. any()
+# 36. any() : Checks if at least one value is True [0 = false,1 = true,0 = false]
 print(any([0,1,0]))
 
-# 37. all()
+# 37. all() : Checks if all values are True                [0 = false,1 = true,0 = false] it return false
 print(all([1,2,3]))
 
 # 39. type()
