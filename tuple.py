@@ -16,6 +16,18 @@ tuple()
 (10,20,30) '''
 
 #tuple means if we use it . it cannot be changed
+'''
+->eval() : it evaluate & executes a python exprression that was wrritten in string.
+-> eval() in integer : eval('10+20') . it converts string to int and displays
+-> eval() in float : eval("3.14") . it converts string to float and displays
+-> eval() in list : eval("[1,2,3]") . it converts string to list and displays
+-> eval() in tuple : eval("(1,2,3)") . it converts string to tuple and displays
+-> eval() in dictionary : eval("{'a':1,'b':2}") . it converts string to dictionary and displays
+-> eval() in set : eval("{1,2,3,4}") . it converts string to set and displays
+-> eval() in multiple elements : a,b = eval(input("Enter values: ")) . it converts string to multiple elements and displays
+-> eval() in string operations: print(eval("'Hello' + ' Python'")) . it apply string operrations to set and displays
+
+'''
 my_tuple=eval(input("Enter my choice: "))
 
 # tuple methods
