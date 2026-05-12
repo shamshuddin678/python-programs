@@ -1,3 +1,20 @@
+# way 1 .t = tuple(map(int,input("Enter elements: ).split()))
+'''
+example: 
+"10 20 30"
+        ↓
+split()
+        ↓
+['10','20','30']
+        ↓
+map(int,...)
+        ↓
+[10,20,30]
+        ↓
+tuple()
+        ↓
+(10,20,30) '''
+
 #tuple means if we use it . it cannot be changed
 my_tuple=eval(input("Enter my choice: "))
 
