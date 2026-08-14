@@ -22,3 +22,12 @@ print("Difference: ",my_set.difference({0,2005,2006}))
 
 # 4.symmetric_difference() : “keep only non-common items”
 print("Symmetric difference: ",my_set.symmetric_difference({0,2005,2006}))
+
+
+'''
+using symbols
+print(a & b)   # -> intersection
+print(a | b)   # -> union
+print(a - b)   # -> difference
+print(a ^ b)   # -> symmetric difference
+'''
